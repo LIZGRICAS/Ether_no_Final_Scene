@@ -1,0 +1,1625 @@
+fileFormatVersion: 2
+guid: a53650ec9fe6f6748ba44e0e808abfc2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4149342493008681491
+    second: QP3TOEa_0
+  - first:
+      213: 5400959034091555968
+    second: QP3TOEa_1
+  - first:
+      213: 6344648658053097430
+    second: QP3TOEa_2
+  - first:
+      213: 496195049588359758
+    second: QP3TOEa_3
+  - first:
+      213: 8600815311816878929
+    second: QP3TOEa_4
+  - first:
+      213: -4666657104140336834
+    second: QP3TOEa_5
+  - first:
+      213: 1252687378406558520
+    second: QP3TOEa_6
+  - first:
+      213: 833564142726605582
+    second: QP3TOEa_7
+  - first:
+      213: 4490092856634957493
+    second: QP3TOEa_8
+  - first:
+      213: 9047707973629894476
+    second: QP3TOEa_9
+  - first:
+      213: 2813231370110036333
+    second: QP3TOEa_10
+  - first:
+      213: -3650306281536523820
+    second: QP3TOEa_11
+  - first:
+      213: -5403756515306679033
+    second: QP3TOEa_12
+  - first:
+      213: -7090591033501157364
+    second: QP3TOEa_13
+  - first:
+      213: 5563210763928628118
+    second: QP3TOEa_14
+  - first:
+      213: -5697735302851202807
+    second: QP3TOEa_15
+  - first:
+      213: 4706407840129317805
+    second: QP3TOEa_16
+  - first:
+      213: 3177243830905635640
+    second: QP3TOEa_17
+  - first:
+      213: 1059588699502124522
+    second: QP3TOEa_18
+  - first:
+      213: -1764626950680563041
+    second: QP3TOEa_19
+  - first:
+      213: 9130140034185127755
+    second: QP3TOEa_20
+  - first:
+      213: -2066584792159599086
+    second: QP3TOEa_21
+  - first:
+      213: -419920908395706074
+    second: QP3TOEa_22
+  - first:
+      213: 2513214271473819083
+    second: QP3TOEa_23
+  - first:
+      213: -1327136354401222703
+    second: QP3TOEa_24
+  - first:
+      213: -8513497000995829387
+    second: QP3TOEa_25
+  - first:
+      213: 5133738044498339497
+    second: QP3TOEa_26
+  - first:
+      213: 3785390049071996067
+    second: QP3TOEa_27
+  - first:
+      213: 2957252810246753368
+    second: QP3TOEa_28
+  - first:
+      213: -5879795969667199030
+    second: QP3TOEa_29
+  - first:
+      213: 3529021337071103934
+    second: QP3TOEa_30
+  - first:
+      213: 8328896235286512602
+    second: QP3TOEa_31
+  - first:
+      213: 467891257344707614
+    second: QP3TOEa_32
+  - first:
+      213: -8911502203419445948
+    second: QP3TOEa_33
+  - first:
+      213: -576445985660341059
+    second: QP3TOEa_34
+  - first:
+      213: 3649720778848279497
+    second: QP3TOEa_35
+  - first:
+      213: 1188730089723108850
+    second: QP3TOEa_36
+  - first:
+      213: -194671011751781775
+    second: QP3TOEa_37
+  - first:
+      213: -2656018327739017437
+    second: QP3TOEa_38
+  - first:
+      213: -6397818682283848876
+    second: QP3TOEa_39
+  - first:
+      213: 2924078043618592355
+    second: QP3TOEa_40
+  - first:
+      213: 6540500544171264779
+    second: QP3TOEa_41
+  - first:
+      213: -6722209335828335566
+    second: QP3TOEa_42
+  - first:
+      213: 9056356320187299635
+    second: QP3TOEa_43
+  - first:
+      213: 2939697040857922114
+    second: QP3TOEa_44
+  - first:
+      213: -7290331798217942571
+    second: QP3TOEa_45
+  - first:
+      213: 2899805017626267467
+    second: QP3TOEa_46
+  - first:
+      213: -748033989824481823
+    second: QP3TOEa_47
+  - first:
+      213: -7558597871237529033
+    second: QP3TOEa_48
+  - first:
+      213: -7159494183245302928
+    second: QP3TOEa_49
+  - first:
+      213: -4467096932618188514
+    second: QP3TOEa_50
+  - first:
+      213: 2539221305073415828
+    second: QP3TOEa_51
+  - first:
+      213: 3297564976400983045
+    second: QP3TOEa_52
+  - first:
+      213: 1338075377286965428
+    second: QP3TOEa_53
+  - first:
+      213: 2561612505444910135
+    second: QP3TOEa_54
+  - first:
+      213: -5741668903662078896
+    second: QP3TOEa_55
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 1
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: QP3TOEa_0
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 940
+        width: 25
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31a5733630d659930800000000000000
+      internalID: 4149342493008681491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QP3TOEa_1
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 952
+        width: 27
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08cc67140af04fa40800000000000000
+      internalID: 5400959034091555968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QP3TOEa_2
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 806
+        width: 177
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d7e9efc658bc0850800000000000000
+      internalID: 6344648658053097430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QP3TOEa_3
+      rect:
+        serializedVersion: 2
+        x: 839
+        y: 961
+        width: 21
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e428506c4c6d2e600800000000000000
+      internalID: 496195049588359758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QP3TOEa_4
+      rect:
+        serializedVersion: 2
+        x: 1066
+        y: 799
+        width: 194
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15be59ff4fb3c5770800000000000000
+      internalID: 8600815311816878929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QP3TOEa_5
+      rect:
+        serializedVersion: 2
+        x: 1091
+        y: 972
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e31892bb614bc3fb0800000000000000
+      internalID: -4666657104140336834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QP3TOEa_6
+      rect:
+        serializedVersion: 2
+        x: 1313
+        y: 793
+        width: 210
+        height: 199
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83bc98c9880726110800000000000000
+      internalID: 1252687378406558520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QP3TOEa_7
+      rect:
+        serializedVersion: 2
+        x: 1568
+        y: 786
+        width: 216
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0be8b0eb2a619b00800000000000000
+      internalID: 833564142726605582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QP3TOEa_8
+      rect:
+        serializedVersion: 2
+        x: 1818
+        y: 783
+        width: 223
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bede30e9a3005e30800000000000000
+      internalID: 4490092856634957493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QP3TOEa_9
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 840
+        width: 106
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4fdda7177aef8d70800000000000000
+      internalID: 9047707973629894476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QP3TOEa_10
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 923
+        width: 22
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d69e466a60b9a0720800000000000000
+      internalID: 2813231370110036333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QP3TOEa_11
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 822
+        width: 145
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d173afe6c1875dc0800000000000000
+      internalID: -3650306281536523820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QP3TOEa_12
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 815
+        width: 159
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 705517464100205b0800000000000000
+      internalID: -5403756515306679033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QP3TOEa_13
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 848
+        width: 33
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c08f798c509299d90800000000000000
+      internalID: -7090591033501157364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QP3TOEa_14
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 852
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69b6892f6be743d40800000000000000
+      internalID: 5563210763928628118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QP3TOEa_15
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 837
+        width: 33
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 901f9511ee39de0b0800000000000000
+      internalID: -5697735302851202807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QP3TOEa_16
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 842
+        width: 28
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dab7507bef4805140800000000000000
+      internalID: 4706407840129317805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QP3TOEa_17
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 826
+        width: 37
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8338ee13e66d71c20800000000000000
+      internalID: 3177243830905635640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QP3TOEa_18
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 834
+        width: 32
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aed97d9ee4a64be00800000000000000
+      internalID: 1059588699502124522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QP3TOEa_19
+      rect:
+        serializedVersion: 2
+        x: 985
+        y: 835
+        width: 22
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f92ba934329c287e0800000000000000
+      internalID: -1764626950680563041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QP3TOEa_20
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 823
+        width: 29
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b476d2fccf5c4be70800000000000000
+      internalID: 9130140034185127755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QP3TOEa_21
+      rect:
+        serializedVersion: 2
+        x: 1062
+        y: 822
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2164a1da4140253e0800000000000000
+      internalID: -2066584792159599086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QP3TOEa_22
+      rect:
+        serializedVersion: 2
+        x: 1248
+        y: 834
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 629805d98242c2af0800000000000000
+      internalID: -419920908395706074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QP3TOEa_23
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 524
+        width: 225
+        height: 227
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcd93a7701bb0e220800000000000000
+      internalID: 2513214271473819083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QP3TOEa_24
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 522
+        width: 228
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1df78636480159de0800000000000000
+      internalID: -1327136354401222703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QP3TOEa_25
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 520
+        width: 229
+        height: 235
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5794a43859bf9d980800000000000000
+      internalID: -8513497000995829387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QP3TOEa_26
+      rect:
+        serializedVersion: 2
+        x: 787
+        y: 520
+        width: 232
+        height: 237
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a66b304d83be3740800000000000000
+      internalID: 5133738044498339497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QP3TOEa_27
+      rect:
+        serializedVersion: 2
+        x: 1042
+        y: 519
+        width: 234
+        height: 239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ac1c3b9138688430800000000000000
+      internalID: 3785390049071996067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QP3TOEa_28
+      rect:
+        serializedVersion: 2
+        x: 1296
+        y: 518
+        width: 234
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85c88c143c54a0920800000000000000
+      internalID: 2957252810246753368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QP3TOEa_29
+      rect:
+        serializedVersion: 2
+        x: 1551
+        y: 517
+        width: 236
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acf8634d7b4c66ea0800000000000000
+      internalID: -5879795969667199030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QP3TOEa_30
+      rect:
+        serializedVersion: 2
+        x: 1804
+        y: 518
+        width: 235
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebfa5e0653a99f030800000000000000
+      internalID: 3529021337071103934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QP3TOEa_31
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 262
+        width: 233
+        height: 249
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad347536ffe269370800000000000000
+      internalID: 8328896235286512602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QP3TOEa_32
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 263
+        width: 221
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1cca8b9e984e7600800000000000000
+      internalID: 467891257344707614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QP3TOEa_33
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 262
+        width: 218
+        height: 249
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 445b21e06fbf35480800000000000000
+      internalID: -8911502203419445948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QP3TOEa_34
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 265
+        width: 219
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db4f3802e6d0008f0800000000000000
+      internalID: -576445985660341059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QP3TOEa_35
+      rect:
+        serializedVersion: 2
+        x: 1029
+        y: 268
+        width: 220
+        height: 241
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cb1d9816b966a230800000000000000
+      internalID: 3649720778848279497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QP3TOEa_36
+      rect:
+        serializedVersion: 2
+        x: 1285
+        y: 270
+        width: 213
+        height: 239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fd93cbe7b73f7010800000000000000
+      internalID: 1188730089723108850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QP3TOEa_37
+      rect:
+        serializedVersion: 2
+        x: 1541
+        y: 274
+        width: 202
+        height: 235
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17a18780fb36c4df0800000000000000
+      internalID: -194671011751781775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QP3TOEa_38
+      rect:
+        serializedVersion: 2
+        x: 1793
+        y: 280
+        width: 200
+        height: 229
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3275032376de32bd0800000000000000
+      internalID: -2656018327739017437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QP3TOEa_39
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 24
+        width: 200
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45b0d193ec16637a0800000000000000
+      internalID: -6397818682283848876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QP3TOEa_40
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 27
+        width: 146
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 366c76dfc79649820800000000000000
+      internalID: 2924078043618592355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QP3TOEa_41
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 123
+        width: 53
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0bc394879684ca50800000000000000
+      internalID: 6540500544171264779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QP3TOEa_42
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 27
+        width: 133
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2343320993ae5b2a0800000000000000
+      internalID: -6722209335828335566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QP3TOEa_43
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 125
+        width: 49
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 337b0203714aead70800000000000000
+      internalID: 9056356320187299635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QP3TOEa_44
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 40
+        width: 113
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24a7a9b22e6ebc820800000000000000
+      internalID: 2939697040857922114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QP3TOEa_45
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 129
+        width: 41
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d91c78fad983da90800000000000000
+      internalID: -7290331798217942571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QP3TOEa_46
+      rect:
+        serializedVersion: 2
+        x: 1030
+        y: 49
+        width: 103
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4f4289bc4d2e3820800000000000000
+      internalID: 2899805017626267467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QP3TOEa_47
+      rect:
+        serializedVersion: 2
+        x: 1156
+        y: 129
+        width: 34
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e5f79cac037e95f0800000000000000
+      internalID: -748033989824481823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QP3TOEa_48
+      rect:
+        serializedVersion: 2
+        x: 1292
+        y: 155
+        width: 75
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7320dd488477a1790800000000000000
+      internalID: -7558597871237529033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QP3TOEa_49
+      rect:
+        serializedVersion: 2
+        x: 1410
+        y: 136
+        width: 31
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 073303419fd54ac90800000000000000
+      internalID: -7159494183245302928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QP3TOEa_50
+      rect:
+        serializedVersion: 2
+        x: 1550
+        y: 163
+        width: 124
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e194e0ae10fa102c0800000000000000
+      internalID: -4467096932618188514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QP3TOEa_51
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 166
+        width: 69
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4963107d2502d3320800000000000000
+      internalID: 2539221305073415828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QP3TOEa_52
+      rect:
+        serializedVersion: 2
+        x: 1296
+        y: 58
+        width: 48
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5046622ffdd43cd20800000000000000
+      internalID: 3297564976400983045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QP3TOEa_53
+      rect:
+        serializedVersion: 2
+        x: 1548
+        y: 59
+        width: 40
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b8e2e9577cc19210800000000000000
+      internalID: 1338075377286965428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QP3TOEa_54
+      rect:
+        serializedVersion: 2
+        x: 1799
+        y: 99
+        width: 32
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7340e3f600dac8320800000000000000
+      internalID: 2561612505444910135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QP3TOEa_55
+      rect:
+        serializedVersion: 2
+        x: 1821
+        y: 63
+        width: 16
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 054b0538d8e7150b0800000000000000
+      internalID: -5741668903662078896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      QP3TOEa_0: 4149342493008681491
+      QP3TOEa_1: 5400959034091555968
+      QP3TOEa_10: 2813231370110036333
+      QP3TOEa_11: -3650306281536523820
+      QP3TOEa_12: -5403756515306679033
+      QP3TOEa_13: -7090591033501157364
+      QP3TOEa_14: 5563210763928628118
+      QP3TOEa_15: -5697735302851202807
+      QP3TOEa_16: 4706407840129317805
+      QP3TOEa_17: 3177243830905635640
+      QP3TOEa_18: 1059588699502124522
+      QP3TOEa_19: -1764626950680563041
+      QP3TOEa_2: 6344648658053097430
+      QP3TOEa_20: 9130140034185127755
+      QP3TOEa_21: -2066584792159599086
+      QP3TOEa_22: -419920908395706074
+      QP3TOEa_23: 2513214271473819083
+      QP3TOEa_24: -1327136354401222703
+      QP3TOEa_25: -8513497000995829387
+      QP3TOEa_26: 5133738044498339497
+      QP3TOEa_27: 3785390049071996067
+      QP3TOEa_28: 2957252810246753368
+      QP3TOEa_29: -5879795969667199030
+      QP3TOEa_3: 496195049588359758
+      QP3TOEa_30: 3529021337071103934
+      QP3TOEa_31: 8328896235286512602
+      QP3TOEa_32: 467891257344707614
+      QP3TOEa_33: -8911502203419445948
+      QP3TOEa_34: -576445985660341059
+      QP3TOEa_35: 3649720778848279497
+      QP3TOEa_36: 1188730089723108850
+      QP3TOEa_37: -194671011751781775
+      QP3TOEa_38: -2656018327739017437
+      QP3TOEa_39: -6397818682283848876
+      QP3TOEa_4: 8600815311816878929
+      QP3TOEa_40: 2924078043618592355
+      QP3TOEa_41: 6540500544171264779
+      QP3TOEa_42: -6722209335828335566
+      QP3TOEa_43: 9056356320187299635
+      QP3TOEa_44: 2939697040857922114
+      QP3TOEa_45: -7290331798217942571
+      QP3TOEa_46: 2899805017626267467
+      QP3TOEa_47: -748033989824481823
+      QP3TOEa_48: -7558597871237529033
+      QP3TOEa_49: -7159494183245302928
+      QP3TOEa_5: -4666657104140336834
+      QP3TOEa_50: -4467096932618188514
+      QP3TOEa_51: 2539221305073415828
+      QP3TOEa_52: 3297564976400983045
+      QP3TOEa_53: 1338075377286965428
+      QP3TOEa_54: 2561612505444910135
+      QP3TOEa_55: -5741668903662078896
+      QP3TOEa_6: 1252687378406558520
+      QP3TOEa_7: 833564142726605582
+      QP3TOEa_8: 4490092856634957493
+      QP3TOEa_9: 9047707973629894476
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
