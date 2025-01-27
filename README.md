@@ -1,13 +1,11 @@
-﻿# Ether_no_Final_Scene
+﻿Ether_no_Final_Scene
 
- #TRAILER GAMEJAM #3 UNITY/GEN
+TRAILER GAMEJAM #3 UNITY/GEN
+ 
+https://youtu.be/i-3ilvelB4Y?feature=shared
+ 
 
-
-<video src="https://youtu.be/i-3ilvelB4Y?feature=shared"  poster="posterimage.jpg">
-</video>
-Reproduce 
-
-#SPRITES PERSONAJE DOUBLE DRAGON
+SPRITES PERSONAJE DOUBLE DRAGON
 
 Descripción
 
@@ -25,7 +23,7 @@ Tirar fuego: Animación mostrando una ráfaga de fuego saliendo de la boca.
 
 Lanzar lluvia de fuego: Animación donde la cabeza prepara y ejecuta un ataque con múltiples llamas cayendo del cielo.
 
-<img align='center' src='https://media0.giphy.com/media/uB11ovB3iAQ3AU8y4k/giphy.gif?cid=6c09b952oxxwmlgqlhe5s5q2nnmfvcd3210s7qo64birv10r&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=g' width='100%' height='450px'> 
+<img align='center' src='https://media3.giphy.com/media/FqiEh7ndssyTvtQlS4/giphy.gif?cid=6c09b952drekbobdfx2gf3xjrzjw1wfo1uushdm8erak43bn&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=g' width='100%' height='450px'> 
 
 
 Cabeza 2:
