@@ -1,6 +1,6 @@
 ﻿Ether_no_Final_Scene
 
-TRAILER GAMEJAM #3 UNITY/GEN
+TRAILER GAME - UNITY/GEN
  
 https://youtu.be/i-3ilvelB4Y?feature=shared
  
