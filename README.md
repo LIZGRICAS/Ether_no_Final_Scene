@@ -2,7 +2,26 @@ TRAILER GAME ETHER-NO
 UNITY
  
 https://youtu.be/i-3ilvelB4Y?feature=shared
- 
+
+
+¡La batalla final se desata en las profundidades del océano, donde un temible dragón marino de dos cabezas surge de las aguas turbulentas! Con su furia incontenible, la primera cabeza escupe fuego ardiente que consume todo a su paso, alternando con poderosas ráfagas de viento que azotan el campo de batalla. Mientras tanto, la segunda cabeza desata un asalto brutal a corta distancia, con ataques físicos imponentes y un golpe devastador al suelo que provoca violentos terremotos, poniendo en riesgo al jugador en cada movimiento.
+
+Pero la batalla no será fácil: a medida que el jugador combate con valentía, el dragón se enfurece y acelera sus ataques, haciendo que cada enfrentamiento sea más intenso y frenético. El viento y el fuego chocan en un escenario épico, con el dragón moviéndose más rápido conforme el jugador gana terreno en el combate.
+
+Finalmente, tras una feroz lucha, el dragón cae, y en su último suspiro, una poderosa ráfaga de viento arrastra el barco del jugador hacia tierra firme. En ese nuevo terreno, rodeado de vastas tierras fértiles, el jugador vislumbra una puerta misteriosa: el acceso al siguiente nivel evolutivo, donde nuevos desafíos, poderes y secretos aguardan. La lucha no ha terminado; ¡el viaje hacia lo desconocido apenas comienza!
+
+ENVIROMENT BATALLA FINAL
+
+El escenario en el que se desarrolla la batalla final contra el dragón marino está cuidadosamente diseñado para sumergir al jugador en una atmósfera épica y desafiante. Este entorno está dividido en tres secciones principales que se transitan a medida que avanza el combate:
+
+Terreno Boscoso: El nivel comienza en el corazón de una isla boscosa, está compuesta por vastos campos verdes llenos de vegetación exuberante, árboles de gran tamaño y flores coloridas que contrastan enormemente con la violencia del mar. Aquí, la atmósfera es  tranquila y misteriosa, con tesoros y gemas escondidas que dotaran de vida al jugador, quien debera enfrentar algunos desafíos con enemigos piratas controlados por la bruja con su sustancia verdosa que los vuelve altamente peligrosos.
+
+El Mar Profundo - Zona de Combate: El nivel comienza en el corazón de un océano embravecido, donde la calma solo parece ser un espejismo antes de la tormenta. El mar es vasto y turbulento, con aguas profundas que se agitan violentamente debido a la presencia del dragón. Se pueden ver grandes olas chocar contra el barco del jugador, lo que aumenta la sensación de vulnerabilidad ante el monstruo marino. La atmósfera está impregnada de niebla densa y lluvias intermitentes que dificultan la visibilidad. La iluminación es tenue, con destellos de rayos que iluminan el cielo de manera dramática, acompañados de los rugidos y ataques devastadores del dragón. Elementos como restos de naufragios flotando o montañas sumergidas pueden ser parte de este paisaje para generar una sensación de peligro constante.
+
+La Tierra Fértil - Nuevo Terreno: Tras la caída del dragón y la explosión de viento, el barco es llevado hacia tierra firme. Esta transición ocurre al final del combate, cuando el dragón finalmente es derrotado. La nueva zona tiene grandes palmeras y gran terreno arenoso con un horizonte lejano donde se encuentra una puerta antigua y luminosa que promete la entrada al siguiente nivel del juego. Este entorno es sereno, pero con una sensación de que aún hay secretos ocultos por descubrir.
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/M-t7UES8KaM?si=7VFouIIRDvtizRg7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 SPRITES PERSONAJE DOUBLE DRAGON
 
