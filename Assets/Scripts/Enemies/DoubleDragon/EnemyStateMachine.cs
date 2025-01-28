@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace Enemys.DoubleDragon
+namespace Enemies.DoubleDragon
 {
     public class EnemyStateMachine : MonoBehaviour
     {
@@ -14,7 +14,7 @@ namespace Enemys.DoubleDragon
         [SerializeField] private AudioClip punch, shild, cross; // Clips de audio
 
         // Referencia al Animator para manejar las animaciones del Double_Dragon
-        public Animator animator;
+        private Animator animator;
         private CameraShake cameraShake;
 
         // Enum de los estados del enemigo
@@ -27,7 +27,7 @@ namespace Enemys.DoubleDragon
 
         private void Start()
         {
-            _player = GameObject.FindGameObjectWithTag("Player").transform;
+            _player = GameObject.FindGameObjectWithTag("PlayerCollision").transform;
             _currentState = State.Idle;
             timeNextAttack = timeBetweenAttacks; // Inicializamos el tiempo para el siguiente ataque
             animator = GetComponent<Animator>();
@@ -79,6 +79,7 @@ namespace Enemys.DoubleDragon
         private void Idle()
         {
             // El enemigo está en reposo, animacion de "quieto" 
+            animator.SetTrigger("Idle"); 
         }
 
         private void Attack()
@@ -97,6 +98,7 @@ namespace Enemys.DoubleDragon
         private void Die()
         {
             // logica de animación de muerte.
+            animator.SetTrigger("Die"); 
         }
 
         #endregion

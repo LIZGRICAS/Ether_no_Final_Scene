@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace Enemys.DoubleDragon
+namespace Enemies.DoubleDragon
 {
     public class CameraShake : MonoBehaviour
     {
