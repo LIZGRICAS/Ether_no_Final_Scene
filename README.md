@@ -1,7 +1,7 @@
 TRAILER GAME ETHER-NO
 UNITY
  
-[![Ver Video](https://img.youtube.com/vi/i-3ilvelB4Y/0.jpg)](https://youtu.be/i-3ilvelB4Y?feature=shared)
+[![Ver Video](https://img.youtube.com/vi/i-3ilvelB4Y/0.jpg)] [Ver video en YouTube](https://youtu.be/i-3ilvelB4Y?feature=shared)
 
 ¡La batalla final se desata en las profundidades del océano, donde un temible dragón marino de dos cabezas surge de las aguas turbulentas! Con su furia incontenible, la primera cabeza escupe fuego ardiente que consume todo a su paso, alternando con poderosas ráfagas de viento que azotan el campo de batalla. Mientras tanto, la segunda cabeza desata un asalto brutal a corta distancia, con ataques físicos imponentes y un golpe devastador al suelo que provoca violentos terremotos, poniendo en riesgo al jugador en cada movimiento.
 
