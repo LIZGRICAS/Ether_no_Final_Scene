@@ -1,8 +1,7 @@
 TRAILER GAME ETHER-NO
 UNITY
  
-https://youtu.be/i-3ilvelB4Y?feature=shared
-
+[![Ver Video](https://img.youtube.com/vi/i-3ilvelB4Y/0.jpg)](https://youtu.be/i-3ilvelB4Y?feature=shared)
 
 ¡La batalla final se desata en las profundidades del océano, donde un temible dragón marino de dos cabezas surge de las aguas turbulentas! Con su furia incontenible, la primera cabeza escupe fuego ardiente que consume todo a su paso, alternando con poderosas ráfagas de viento que azotan el campo de batalla. Mientras tanto, la segunda cabeza desata un asalto brutal a corta distancia, con ataques físicos imponentes y un golpe devastador al suelo que provoca violentos terremotos, poniendo en riesgo al jugador en cada movimiento.
 
@@ -20,8 +19,8 @@ El Mar Profundo - Zona de Combate: El nivel comienza en el corazón de un océan
 
 La Tierra Fértil - Nuevo Terreno: Tras la caída del dragón y la explosión de viento, el barco es llevado hacia tierra firme. Esta transición ocurre al final del combate, cuando el dragón finalmente es derrotado. La nueva zona tiene grandes palmeras y gran terreno arenoso con un horizonte lejano donde se encuentra una puerta antigua y luminosa que promete la entrada al siguiente nivel del juego. Este entorno es sereno, pero con una sensación de que aún hay secretos ocultos por descubrir.
 
+[![Ver Video](https://img.youtube.com/vi/M-t7UES8KaM/0.jpg)](https://youtu.be/M-t7UES8KaM)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/M-t7UES8KaM?si=7VFouIIRDvtizRg7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 SPRITES PERSONAJE DOUBLE DRAGON
 
