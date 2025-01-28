@@ -19,7 +19,8 @@ El Mar Profundo - Zona de Combate: El nivel comienza en el corazón de un océan
 
 La Tierra Fértil - Nuevo Terreno: Tras la caída del dragón y la explosión de viento, el barco es llevado hacia tierra firme. Esta transición ocurre al final del combate, cuando el dragón finalmente es derrotado. La nueva zona tiene grandes palmeras y gran terreno arenoso con un horizonte lejano donde se encuentra una puerta antigua y luminosa que promete la entrada al siguiente nivel del juego. Este entorno es sereno, pero con una sensación de que aún hay secretos ocultos por descubrir.
 
-[![Ver Video](https://img.youtube.com/vi/M-t7UES8KaM/0.jpg)](https://youtu.be/M-t7UES8KaM)
+![Enviroment Batalla Final](https://img.youtube.com/vi/ktKdGeAYMIk/0.jpg)
+[Ver video en YouTube](https://youtu.be/ktKdGeAYMIk)
 
 
 SPRITES PERSONAJE DOUBLE DRAGON
