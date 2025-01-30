@@ -8,7 +8,7 @@ namespace Enemies.DoubleDragon
         [SerializeField] private Transform[] waypoints;
         [SerializeField] private float chaseRadius = 10f;
         [SerializeField] private float attackRadius = 2f;
-        private Transform _player;
+        // private Transform _player;
 
         [Header("Audio Sources")]
         [SerializeField] private AudioClip punch, shild, cross; // Clips de audio
@@ -27,7 +27,7 @@ namespace Enemies.DoubleDragon
 
         private void Start()
         {
-            _player = GameObject.FindGameObjectWithTag("PlayerCollision").transform;
+            // _player = GameObject.FindGameObjectWithTag("Player").transform;
             _currentState = State.Idle;
             timeNextAttack = timeBetweenAttacks; // Inicializamos el tiempo para el siguiente ataque
             animator = GetComponent<Animator>();
@@ -50,29 +50,29 @@ namespace Enemies.DoubleDragon
             }
 
             // Verificamos las transiciones de estado
-            CheckStateTransitions();
+            // CheckStateTransitions();
         }
 
-        private void CheckStateTransitions()
-        {
-            float distanceToPlayer = Vector3.Distance(_player.position, transform.position);
+        // private void CheckStateTransitions()
+        // {
+        //     float distanceToPlayer = Vector3.Distance(_player.position, transform.position);
 
-            if (_currentState == State.Idle)
-            {
-                if (distanceToPlayer <= chaseRadius)
-                {
-                    _currentState = State.Attack;
-                }
-            }
+        //     if (_currentState == State.Idle)
+        //     {
+        //         if (distanceToPlayer <= chaseRadius)
+        //         {
+        //             _currentState = State.Attack;
+        //         }
+        //     }
 
-            if (_currentState == State.Attack)
-            {
-                if (distanceToPlayer > attackRadius)
-                {
-                    _currentState = State.Idle;
-                }
-            }
-        }
+        //     if (_currentState == State.Attack)
+        //     {
+        //         if (distanceToPlayer > attackRadius)
+        //         {
+        //             _currentState = State.Idle;
+        //         }
+        //     }
+        // }
 
         #region States
 
