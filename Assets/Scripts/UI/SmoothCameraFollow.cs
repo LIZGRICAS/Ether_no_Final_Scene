@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace SmallScaleInteractive._2DCharacter
+namespace UI
 {
     public class SmoothCameraFollow : MonoBehaviour
     {

@@ -1,9 +1,11 @@
+using Player;
 using UnityEngine;
 
-namespace Player
+namespace Objects
 {
-    public class PlayerController : MonoBehaviour
+    public class BoatAnimationController : MonoBehaviour
     {
+
         [SerializeField] float m_speed = 4.0f;
         [SerializeField] float m_jumpForce = 7.5f;
         [SerializeField] float m_rollForce = 6.0f;
@@ -93,7 +95,8 @@ namespace Player
 
             // -- Handle Animations --
             //Wall Slide
-            m_isWallSliding = (m_wallSensorR1.State() && m_wallSensorR2.State()) || (m_wallSensorL1.State() && m_wallSensorL2.State());
+            m_isWallSliding = (m_wallSensorR1.State() && m_wallSensorR2.State()) ||
+                              (m_wallSensorL1.State() && m_wallSensorL2.State());
             m_animator.SetBool("WallSlide", m_isWallSliding);
 
             //Death
@@ -188,7 +191,8 @@ namespace Player
             if (m_slideDust != null)
             {
                 // Set correct arrow spawn position
-                GameObject dust = Instantiate(m_slideDust, spawnPosition, gameObject.transform.localRotation) as GameObject;
+                GameObject dust =
+                    Instantiate(m_slideDust, spawnPosition, gameObject.transform.localRotation) as GameObject;
                 // Turn arrow in correct direction
                 dust.transform.localScale = new Vector3(m_facingDirection, 1, 1);
             }

@@ -6,11 +6,16 @@ TagManager:
   tags:
   - Enemy
   - PlayerCollision
+  - Gem
+  - Sword
+  - Scroll
+  - Door
+  - Dead
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Enemy
   - Water
   - UI
   - 
