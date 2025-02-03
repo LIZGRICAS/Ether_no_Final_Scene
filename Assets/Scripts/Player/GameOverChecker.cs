@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameOverChecker : MonoBehaviour
 {
@@ -12,6 +13,8 @@ public class GameOverChecker : MonoBehaviour
         {
             print("Game Over");
             Destroy(gameObject);
+            
+            SceneManager.LoadScene("GameOver");
         }
     }
 }

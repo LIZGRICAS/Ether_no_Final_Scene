@@ -45,9 +45,7 @@ public class PatrolPoint : MonoBehaviour
                     direccionPunto.x = -1;
                 }
             }
-            
-            
-            Vector2 direccionSinY= new Vector2(direccionPunto.x, ejeY);
+        
             Vector2 direccionVelocidad = direccionPunto * speed;
             rb.linearVelocity = direccionVelocidad;
         

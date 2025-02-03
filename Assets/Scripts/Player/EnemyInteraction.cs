@@ -1,6 +1,7 @@
 using System;
 using UnityEngine;
 
+
 namespace Player
 {
     public class EnemyInteraction : MonoBehaviour
@@ -8,18 +9,30 @@ namespace Player
         
         [Header("Configuracion de Puntos y enemigos")]
         public int cantidadPuntos;
-        public LayerMask layerEnemigo;
+        public LayerMask Enemy;
+        private PlayerController controlador;
         
         public ScoreController scoreController;
-        private void Update()
+
+        private void Awake()
         {
-            RaycastHit2D enemy = Physics2D.Raycast(transform.position, Vector2.down, 1f, layerEnemigo);
-            bool encontrarEnemigo = enemy;
-            if (encontrarEnemigo)
-            {
-                scoreController.score += 300;
-                Destroy(enemy.collider.gameObject);
-            }
+            controlador = GetComponent<PlayerController>();
+        }
+
+        private void RecibirDaño()
+        {
+            // animaciones
+            //efectos
+            controlador.QuitarMana(20);
+        }
+        
+        private void Atacar()
+        {
+            // animaciones
+            //efectos
+                scoreController.health += 30;
+               // Destroy(enemy.collider.gameObject);
+            
         }
     }
 }

@@ -13,9 +13,10 @@ GameObject:
   - component: {fileID: 5770202758985244533}
   - component: {fileID: 5186137748588783989}
   - component: {fileID: 954628849127178589}
-  - component: {fileID: 3816765982344113147}
-  - component: {fileID: 6054378437598090098}
-  - component: {fileID: 1754495126167708031}
+  - component: {fileID: 2724249741378949535}
+  - component: {fileID: 1850419574275464687}
+  - component: {fileID: 6076355089972733118}
+  - component: {fileID: 3073237946959420649}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -193,7 +194,7 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1.7787296, y: 2.814492}
   m_EdgeRadius: 0
---- !u!114 &3816765982344113147
+--- !u!114 &2724249741378949535
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -205,12 +206,27 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bf3d3940717d3d545a4cfb27366d5ebd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  name: 
+  vidas: 0
+  mana: 0
+--- !u!114 &1850419574275464687
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 120501258994874766}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b0f8aa360a68184bbfeebd753c137e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_speed: 4
   m_jumpForce: 7.5
   m_rollForce: 6
   m_noBlood: 0
   m_slideDust: {fileID: 1038168246061390451, guid: 4b547e5c12149ee49a05480b3075cf4d, type: 3}
---- !u!114 &6054378437598090098
+--- !u!114 &6076355089972733118
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -223,7 +239,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreController: {fileID: 0}
---- !u!114 &1754495126167708031
+--- !u!114 &3073237946959420649
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -232,14 +248,22 @@ MonoBehaviour:
   m_GameObject: {fileID: 120501258994874766}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5af5b0e1a8e94e09b21f97eac2a05185, type: 3}
+  m_Script: {fileID: 11500000, guid: 0d22c48ce7a52de40a4578df853ba812, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cantidadPuntos: 100
-  layerEnemigo:
-    serializedVersion: 2
-    m_Bits: 8
-  scoreController: {fileID: 0}
+  death: {fileID: 0}
+  getHit: {fileID: 0}
+  maxLives: 5
+  maxHealth: 100
+  live: 5
+  health: 100
+  inmunityTime: 1
+  knockBackForceX: 1
+  knockBackForceY: 0
+  liveImg: {fileID: 0}
+  healthImg: {fileID: 0}
+  playerAnimator: {fileID: 744721534165120674}
+  enemyAnimator: {fileID: 0}
 --- !u!1 &5950325638612634373
 GameObject:
   m_ObjectHideFlags: 0
@@ -250,7 +274,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3763952689553460289}
   - component: {fileID: 2920535492189817464}
-  - component: {fileID: 3499269539463514876}
+  - component: {fileID: 2022954112601675721}
   m_Layer: 0
   m_Name: WallSensor_R2
   m_TagString: Untagged
@@ -309,7 +333,7 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0.1}
   m_Radius: 0.05
---- !u!114 &3499269539463514876
+--- !u!114 &2022954112601675721
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -331,7 +355,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7229235265898414804}
   - component: {fileID: 4699551272009459051}
-  - component: {fileID: 4173438774033183519}
+  - component: {fileID: 5625870126297688710}
   m_Layer: 0
   m_Name: WallSensor_L2
   m_TagString: Untagged
@@ -390,7 +414,7 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0.1}
   m_Radius: 0.05
---- !u!114 &4173438774033183519
+--- !u!114 &5625870126297688710
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -412,7 +436,7 @@ GameObject:
   m_Component:
   - component: {fileID: 9102666845102125478}
   - component: {fileID: 198515541673465120}
-  - component: {fileID: 323580398296446034}
+  - component: {fileID: 4875123842749970416}
   m_Layer: 0
   m_Name: GroundSensor
   m_TagString: Untagged
@@ -471,7 +495,7 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0.1}
   m_Radius: 0.05
---- !u!114 &323580398296446034
+--- !u!114 &4875123842749970416
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -493,7 +517,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6998836699275112466}
   - component: {fileID: 1231933110007368106}
-  - component: {fileID: 7998954792278811232}
+  - component: {fileID: 8888866284516905163}
   m_Layer: 0
   m_Name: WallSensor_R1
   m_TagString: Untagged
@@ -552,7 +576,7 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0.1}
   m_Radius: 0.05
---- !u!114 &7998954792278811232
+--- !u!114 &8888866284516905163
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -574,7 +598,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2829297487176038428}
   - component: {fileID: 6673974897032331987}
-  - component: {fileID: 5838998424469606018}
+  - component: {fileID: 4157808830825777967}
   m_Layer: 0
   m_Name: WallSensor_L1
   m_TagString: Untagged
@@ -633,7 +657,7 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0.1}
   m_Radius: 0.05
---- !u!114 &5838998424469606018
+--- !u!114 &4157808830825777967
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

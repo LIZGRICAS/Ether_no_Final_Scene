@@ -9,7 +9,7 @@ public class PointsController : MonoBehaviour
    {
        if (collision.gameObject.CompareTag("Gem"))
        {
-           scoreController.score += 100;
+           scoreController.health += 20;
            Destroy(collision.gameObject);
        }
 }
