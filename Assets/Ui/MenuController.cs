@@ -5,22 +5,37 @@ namespace UI
 {
     public class MenuController : MonoBehaviour
     {
-        public GameObject canvasToHide; // Arrastra tu Canvas aquí desde el inspector
-        public Button startButton; // Arrastra tu botón aquí
-        // Esta función debe ser pública para que sea accesible en el inspector de Unity
+        public GameObject canvasToHide; // El Canvas que se debe ocultar
+        public GameObject canvasToShow1; // El primer Canvas que se debe mostrar
+        public GameObject canvasToShow2; // El segundo Canvas que se debe mostrar
+        public Button startButton; // El botón que activa el cambio
+        
         void Start()
         {
-            // Asigna el evento de clic del botón
+            // Asigna el evento de clic al botón
             startButton.onClick.AddListener(OnStartButtonClicked);
         }
         
         // Método que se llama cuando se presiona el botón
         void OnStartButtonClicked()
         {
+            // Desactiva el Canvas que se debe ocultar
             if (canvasToHide != null)
             {
-                canvasToHide.SetActive(false); // Oculta el canvas
+                canvasToHide.SetActive(false);
+            }
+
+            // Activa los dos Canvas que se deben mostrar
+            if (canvasToShow1 != null)
+            {
+                canvasToShow1.SetActive(true);
+            }
+
+            if (canvasToShow2 != null)
+            {
+                canvasToShow2.SetActive(true);
             }
         }
     }
 }
+

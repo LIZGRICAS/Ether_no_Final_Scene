@@ -11,5 +11,5 @@ AssetOrigin:
   productId: 103511
   packageName: Pixel Black Knight
   packageVersion: 1.1
-  assetPath: Assets/Black Knight/black_knight/run.anim
+  assetPath: Assets/Animations/Enemies/black_knight/run.anim
   uploadId: 685897

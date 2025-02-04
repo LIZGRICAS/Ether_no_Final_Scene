@@ -188,10 +188,10 @@ namespace Player
             {
             
                 // Llamar a la función del ScoreController para aplicar el daño
-                if (scoreController != null)
-                {
-                    scoreController.TakeDamage(10, collision);  // Puedes pasar el daño y la colisión
-                }
+                // if (scoreController != null)
+                // {
+                //     scoreController.TakeDamage(10);  // Puedes pasar el daño y la colisión
+                // }
             }
         }
         // Animation Events

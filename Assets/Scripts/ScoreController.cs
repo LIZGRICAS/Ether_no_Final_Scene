@@ -49,9 +49,10 @@ public class ScoreController : MonoBehaviour
         healthImg.fillAmount = health / maxHealth;
 
         // Revisa si el jugador ha muerto
-        if (live <= 0)
+        if (health <= 0)
         {
             AudioManager.Instance.PlaySound(death);
+            playerAnimator.SetTrigger("Death"); 
             SceneManager.LoadScene("GameOver");
         }
 
@@ -62,12 +63,8 @@ public class ScoreController : MonoBehaviour
 
    
     // Aplica daño al jugador
-    public void TakeDamage(int damage, Collider2D enemy)
+    public void TakeDamage(int damage)
     {
-        enemyAnimator.SetTrigger("skill_1");
-        AudioManager.Instance.PlaySound(getHit);
-        playerAnimator.SetTrigger("Hurt");
-        AudioManager.Instance.PlaySound(getHit);
 
         health -= damage;
 
@@ -78,22 +75,10 @@ public class ScoreController : MonoBehaviour
             health = maxHealth;
         }
 
-        // Retroceso
-        if (enemy.transform.position.x > transform.position.x)
-        {
-            rb.AddForce(new Vector2(-knockBackForceX, knockBackForceY), ForceMode2D.Force);
-        }
-        else
-        {
-            rb.AddForce(new Vector2(knockBackForceX, knockBackForceY), ForceMode2D.Force);
-        }
-
-        // Activar inmunidad temporal
-        StartCoroutine(Inmunity());
     }
 
     // Activar inmunidad temporal
-    private IEnumerator Inmunity()
+    public IEnumerator Inmunity()
     {
         isInmune = true;
         sprite.color = new Color(1f, 1f, 1f, 0.5f); // Cambio visual para indicar inmunidad (puedes cambiar esto)

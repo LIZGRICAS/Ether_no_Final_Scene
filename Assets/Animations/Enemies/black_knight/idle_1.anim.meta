@@ -11,5 +11,5 @@ AssetOrigin:
   productId: 103511
   packageName: Pixel Black Knight
   packageVersion: 1.1
-  assetPath: Assets/Black Knight/black_knight/idle_1.anim
+  assetPath: Assets/Animations/Enemies/black_knight/idle_1.anim
   uploadId: 685897

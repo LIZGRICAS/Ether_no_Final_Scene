@@ -11,11 +11,11 @@ namespace UI
         void Start()
         {
             // Inicializa 
-            signInstructionGame.gameObject.SetActive(false);
+            // signInstructionGame.gameObject.SetActive(false);
 
             // Al principio, mostramos el letrero "Instrucciones de controles del juego" por 3 segundos
             signInstructionGame.gameObject.SetActive(true);
-            Invoke("HideInstructions", 3f); // El letrero de "Let's Go" se oculta después de 3 segundos
+            Invoke("HideInstructions", 3f); // El letrero de "Let's Go" se oculta después de 5 segundos
         }
 
         // Método para ocultar el letrero 
