@@ -7,6 +7,7 @@ public class PointsController : MonoBehaviour
 
    private void OnTriggerEnter2D(Collider2D collision)
    {
+       // valida si el objeto con el cual se colisiono es una gema y se aumenta 20 puntos en salud
        if (collision.gameObject.CompareTag("Gem"))
        {
            scoreController.health += 20;

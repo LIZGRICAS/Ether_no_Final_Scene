@@ -18,6 +18,7 @@ GameObject:
   - component: {fileID: 6076355089972733118}
   - component: {fileID: 3073237946959420649}
   - component: {fileID: 4407079512063259672}
+  - component: {fileID: 1301465624246699000}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -227,6 +228,7 @@ MonoBehaviour:
   m_rollForce: 6
   m_noBlood: 0
   m_slideDust: {fileID: 1038168246061390451, guid: 4b547e5c12149ee49a05480b3075cf4d, type: 3}
+  playerAttack: {fileID: 0}
 --- !u!114 &6076355089972733118
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -258,7 +260,8 @@ MonoBehaviour:
   maxHealth: 100
   live: 5
   health: 100
-  inmunityTime: 1
+  liveEnemy: 3
+  immunityTime: 1
   knockBackForceX: 1
   knockBackForceY: 0
   liveImg: {fileID: 0}
@@ -266,6 +269,18 @@ MonoBehaviour:
   playerAnimator: {fileID: 744721534165120674}
   enemyAnimator: {fileID: 0}
 --- !u!114 &4407079512063259672
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 120501258994874766}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19ccc50258f17ad44891e3da358b1990, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1301465624246699000
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

@@ -9,7 +9,7 @@ public class PatrolPoint : MonoBehaviour
     
     [Header("Configuracion de la IA")]
     public float speed;
-    public float detectionRange = 5f;  // Rango en el que el enemigo detecta al jugador
+    public float detectionRange = 10f;  // Rango en el que el enemigo detecta al jugador
     private Rigidbody2D rb;
     private Transform puntoActual;
     private int indicePunto = 0;
@@ -27,7 +27,7 @@ public class PatrolPoint : MonoBehaviour
         {
             return;
         }
- // Asignamos el primer punto de patrullaje
+    // Asignamos el primer punto de patrullaje
         puntoActual = points[indicePunto];
 
         // Buscamos al jugador en la escena
@@ -65,7 +65,7 @@ public class PatrolPoint : MonoBehaviour
         {
             // Si no está en rango, patrullar
             float ejeY = rb.linearVelocity.y;
-        // se normaliza ya que el vector de trayecto es muy grande
+             // se normaliza ya que el vector de trayecto es muy grande
             Vector2 direccionPunto = (puntoActual.position - transform.position).normalized;
             
             // movimiento del enemigo constante sin importar la lejania del punto de patrullaje
@@ -80,7 +80,7 @@ public class PatrolPoint : MonoBehaviour
                 {
                     direccionPunto.x = -1;
                     // Restauramos la rotación original (sin rotación en Y) si se mueve hacia la derecha
-            transform.rotation = Quaternion.Euler(0, 0, 0);
+                transform.rotation = Quaternion.Euler(0, 0, 0);
                 }
             }
         

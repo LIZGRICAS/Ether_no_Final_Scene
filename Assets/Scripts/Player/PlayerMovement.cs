@@ -9,7 +9,6 @@ namespace Player
         [SerializeField] float m_rollForce = 6.0f;
         [SerializeField] bool m_noBlood = false;
         [SerializeField] GameObject m_slideDust;
-
         private Animator m_animator;
         private Rigidbody2D m_body2d;
         private SensorPlayer m_groundSensor;
@@ -27,6 +26,9 @@ namespace Player
         private float m_rollDuration = 8.0f / 14.0f;
         private float m_rollCurrentTime;
 
+        private bool isEnemyCollision = false; // Para saber si el jugador está dentro del área de colisión
+
+
         // Reference ScoreController
         private ScoreController scoreController;
 
@@ -41,9 +43,7 @@ namespace Player
             m_wallSensorR2 = transform.Find("WallSensor_R2").GetComponent<SensorPlayer>();
             m_wallSensorL1 = transform.Find("WallSensor_L1").GetComponent<SensorPlayer>();
             m_wallSensorL2 = transform.Find("WallSensor_L2").GetComponent<SensorPlayer>();
-            // Obtener la referencia al ScoreController
-            scoreController = FindObjectOfType<ScoreController>(); // Asegúrate de que haya un ScoreController en la escena
-        
+            scoreController = FindObjectOfType<ScoreController>(); // Reference  ScoreController
         }
 
         // Update is called once per frame
@@ -131,6 +131,16 @@ namespace Player
 
                 // Reset timer
                 m_timeSinceAttack = 0.0f;
+
+                if (isEnemyCollision)
+                {
+                    if (scoreController != null)
+                    {
+                        // Si el jugador realiza un ataque, aplicar el daño
+                        scoreController.TakeDamage(1);
+                        isEnemyCollision = false;
+                    }
+                }
             }
 
             // Block
@@ -180,18 +190,14 @@ namespace Player
             }
         }
 
-
         // Methods for handling collisions with enemies.
         private void OnTriggerEnter2D(Collider2D collision)
         {
             if (collision.CompareTag("Enemy"))
             {
-            
-                // Llamar a la función del ScoreController para aplicar el daño
-                // if (scoreController != null)
-                // {
-                //     scoreController.TakeDamage(10);  // Puedes pasar el daño y la colisión
-                // }
+
+                isEnemyCollision = true;
+
             }
         }
         // Animation Events
