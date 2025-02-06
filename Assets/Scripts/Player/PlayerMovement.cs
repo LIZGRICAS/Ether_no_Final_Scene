@@ -137,7 +137,7 @@ namespace Player
                     if (scoreController != null)
                     {
                         // Si el jugador realiza un ataque, aplicar el daño
-                        scoreController.TakeDamage(1);
+                        //scoreController.TakeDamage(1);
                         isEnemyCollision = false;
                     }
                 }

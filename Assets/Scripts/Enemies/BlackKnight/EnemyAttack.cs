@@ -68,13 +68,13 @@ public class EnemyAttack : MonoBehaviour
             enemyAnimator.SetTrigger(attackAnimationTrigger); // Activamos la animación de ataque en el enemigo
             // activamos la coroutine para retrasar la animación de daño en el jugador 
             StartCoroutine(PlayHurtAnimationWithDelay(1f));
+            playerScoreController.UseHealth(20); // Reduce la salud del jugador
             // Retroceso
             KnockBack(collision);
             StartCoroutine(scoreController.Immunity());
             // Marcamos que el jugador está en rango
             isPlayerInRange = true;
             atkTimes++;
-            playerScoreController.UseHealth(20); // Reduce la salud del jugador
         }
     }
 

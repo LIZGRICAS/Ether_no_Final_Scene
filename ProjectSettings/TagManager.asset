@@ -48,5 +48,11 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Bar
+    uniqueID: 2735462419
+    locked: 0
+  - name: ContentBar
+    uniqueID: 1569754731
+    locked: 0
   m_RenderingLayers:
   - Default
