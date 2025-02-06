@@ -55,4 +55,4 @@ Terremoto: Animación representando la cabeza golpeando el suelo para generar un
 <img width="200px" height='150px' align='center' src='https://media2.giphy.com/media/FbJcydQ0XKfVEO5VWw/giphy.gif?cid=6c09b952vyl6ale0eegxs1l6bsxhey61yz88cmcdci26y6ty&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=g' > 
 
 
-<img width="200px" height='150px' align='center' src='https://img.itch.zone/aW1nLzE1NjU5MDQ3LmpwZw==/original/hzoqOq.jpg' width="100px" height='160px'><br>Lizbeth Grisales: <br>**UI / PROGRAMACIÓN / DISEÑO DE NIVEL / DOCUMENTACIÓN / ARTISTA TÉCNICO<br>
+<img width="200px" height='150px' align='center' src='https://img.itch.zone/aW1nLzE1NjU5MDQ3LmpwZw==/original/hzoqOq.jpg' width="200px" height='260px'><br>Lizbeth Grisales: <br>**UI / PROGRAMACIÓN / DISEÑO DE NIVEL / DOCUMENTACIÓN / ARTISTA TÉCNICO<br>
