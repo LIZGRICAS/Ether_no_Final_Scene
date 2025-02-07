@@ -15,13 +15,12 @@ public class PatrolPoint : MonoBehaviour
     private int indicePunto = 0;
     private Transform player;  // Referencia al jugador
     private bool isPlayerInRange = false;
+    private Animator animator;
 
-    void Awake()
-    {
-        rb = GetComponent<Rigidbody2D>();
-    }
     void Start()
     {
+        rb = GetComponent<Rigidbody2D>();
+        animator = GetComponent<Animator>();
     // Si no hay puntos de patrullaje, no podemos patrullar
         if (points.Length <= 0)
         {

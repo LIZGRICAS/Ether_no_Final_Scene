@@ -9,7 +9,7 @@ public class ScoreController : MonoBehaviour
     [SerializeField] private AudioClip death, getHit; // Audio clips for player death and damage
 
     [Header("Player Stats")]
-    [SerializeField] private int maxLives = 5; // Maximum player lives
+    [SerializeField] private int maxLives = 10; // Maximum player lives
     [SerializeField] private int maxHealth = 100; // Maximum player health
 
     [SerializeField] public Animator playerAnimator; // Reference to player Animator
@@ -20,15 +20,10 @@ public class ScoreController : MonoBehaviour
     public float health; // Current player health
     public float immunityTime = 1f; // Immunity time after taking damage
     private bool isImmune; // Indicates if the player is immune to damage
-    public float knockBackForceX; // Knockback force in X
-    public float knockBackForceY; // Knockback force in Y
     private bool isDead = false;  // Flag to prevent multiple death updates
 
     [Header("Player Stats Image Bar")]
     private SpriteRenderer sprite;
-    private Rigidbody2D rb;
-
-    private PlayerMovement playerMovement;
 
     [Header("Game Over Canvas")]
     public GameObject gameOverCanvas;  // Reference to the "Game Over" Canvas in the scene
@@ -36,8 +31,6 @@ public class ScoreController : MonoBehaviour
     void Start()
     {
         // Initialize components
-        playerMovement = GetComponent<PlayerMovement>();
-        rb = GetComponent<Rigidbody2D>();
         sprite = GetComponent<SpriteRenderer>();
 
         // Set initial values
@@ -62,10 +55,7 @@ public class ScoreController : MonoBehaviour
         if (health <= 0 && !isDead)
         {
             isDead = true;  // Set the death flag to true to prevent further updates
-
-            AudioManager.Instance.PlaySound(death); // Play death sound
-            playerAnimator.SetTrigger("Death"); // Trigger death animation
-
+            
             if (lifeUI != null) 
             {
                 // Update lives UI only once
@@ -76,11 +66,7 @@ public class ScoreController : MonoBehaviour
             Invoke("ActivateGameOverCanvas", 1f); // Delay the activation to give time for the UI to update
         }
 
-        if (isDead)
-        {
-            playerAnimator.SetTrigger("Death"); // Trigger death animation
-        }
-
+        
         // Ensures that health and lives do not exceed the maximum values
         health = Mathf.Clamp(health, 0, maxHealth);
         lives = Mathf.Clamp(lives, 0, maxLives);
@@ -98,7 +84,6 @@ public class ScoreController : MonoBehaviour
             gameOverCanvas.SetActive(true);  // Activate the Game Over canvas
         }
 
-        // You can also disable player controls, game objects, etc., here if necessary
     }
 
     // Method to restart the game (reload the current scene)
@@ -106,14 +91,6 @@ public class ScoreController : MonoBehaviour
     {
         // Reload the current scene (restarts the game)
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-    }
-
-    // Method to exit the game
-    public void ExitGame()
-    {
-        // Close the application (works in a build, not in the editor)
-        Application.Quit();
-        Debug.Log("Game is exiting...");
     }
 
     // Activate temporary immunity

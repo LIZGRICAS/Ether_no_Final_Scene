@@ -9,7 +9,6 @@ namespace UI
         public GameObject canvasBarLives;// el Canvas que se debe ocultar
         public GameObject canvasMenu; // El primer Canvas que se debe mostrar
         public GameObject canvasControls; // El segundo Canvas que se debe mostrar
-        public GameObject canvasGameOver; // El segundo Canvas que se debe mostrar
         public Button startButton; // El botón que activa el cambio
 
         // Botones del Game Over

@@ -25,13 +25,9 @@ namespace Player
         private float m_delayToIdle = 0.0f;
         private float m_rollDuration = 8.0f / 14.0f;
         private float m_rollCurrentTime;
+        private PlayerAttack playerAttack;
 
         private bool isEnemyCollision = false; // Para saber si el jugador está dentro del área de colisión
-
-
-        // Reference ScoreController
-        private ScoreController scoreController;
-
 
         // Use this for initialization
         void Start()
@@ -43,7 +39,7 @@ namespace Player
             m_wallSensorR2 = transform.Find("WallSensor_R2").GetComponent<SensorPlayer>();
             m_wallSensorL1 = transform.Find("WallSensor_L1").GetComponent<SensorPlayer>();
             m_wallSensorL2 = transform.Find("WallSensor_L2").GetComponent<SensorPlayer>();
-            scoreController = FindObjectOfType<ScoreController>(); // Reference  ScoreController
+            playerAttack = FindObjectOfType<PlayerAttack>(); // Reference  PlayerAttack
         }
 
         // Update is called once per frame
@@ -132,15 +128,7 @@ namespace Player
                 // Reset timer
                 m_timeSinceAttack = 0.0f;
 
-                if (isEnemyCollision)
-                {
-                    if (scoreController != null)
-                    {
-                        // Si el jugador realiza un ataque, aplicar el daño
-                        //scoreController.TakeDamage(1);
-                        isEnemyCollision = false;
-                    }
-                }
+                playerAttack.Hit();
             }
 
             // Block
@@ -190,17 +178,6 @@ namespace Player
             }
         }
 
-        // Methods for handling collisions with enemies.
-        private void OnTriggerEnter2D(Collider2D collision)
-        {
-            if (collision.CompareTag("Enemy"))
-            {
-
-                isEnemyCollision = true;
-
-            }
-        }
-        // Animation Events
         // Called in slide animation.
         void AE_SlideDust()
         {

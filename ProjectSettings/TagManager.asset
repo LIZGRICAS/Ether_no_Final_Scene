@@ -7,10 +7,12 @@ TagManager:
   - Enemy
   - PlayerCollision
   - Gem
-  - Sword
   - Scroll
   - Door
   - Dead
+  - Live
+  - EnemyOff
+  - Sword
   layers:
   - Default
   - TransparentFX

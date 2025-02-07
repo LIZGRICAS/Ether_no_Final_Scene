@@ -13,5 +13,11 @@ public class PointsController : MonoBehaviour
            scoreController.health += 20;
            Destroy(collision.gameObject);
        }
-}
+       // valida si el objeto con el cual se colisiono es una gema y se aumenta 20 puntos en salud
+       if (collision.gameObject.CompareTag("Sword"))
+       {
+           scoreController.Heal(1);
+           Destroy(collision.gameObject);
+       }
+}   
 }

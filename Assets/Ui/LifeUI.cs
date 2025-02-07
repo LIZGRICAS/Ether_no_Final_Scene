@@ -5,11 +5,13 @@ using System.Collections; // Import System.Collections for IEnumerator and corou
 public class LifeUI : MonoBehaviour
 {
     public TextMeshProUGUI textLife; // Reference to the TextMeshProUGUI component to display lives
-    private int lives = 5;  // Initial number of lives
+    private int lives;  // Initial lives
     private bool isUpdatingLives = false; // Flag to prevent continuous updates
+    private ScoreController scoreController;  // Reference ScoreController
 
     void Start()
     {
+        lives = scoreController.lives;
         // Check if the Canvas or TextMeshProUGUI component is active before initializing
         if (textLife != null && textLife.gameObject.activeInHierarchy)
         {
